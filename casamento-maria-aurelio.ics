@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hermes Agent//Convite Maria Aurelio//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:casamento-maria-aurelio-20260905@hermes.local
+DTSTAMP:20260807T000000Z
+DTSTART:20260905T223000Z
+DTEND:20260906T060000Z
+SUMMARY:Casamento Maria & Aurelio
+LOCATION:Espaço Pacaembu, São Paulo
+DESCRIPTION:Nosso grande dia começa às 19h30. Cerimônia às 20h, jantar às 21h e festa a partir das 22h. Confirme presença na Wedy.
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Casamento Maria & Aurelio em 7 dias
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Amanhã é o casamento Maria & Aurelio
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Casamento Maria & Aurelio hoje às 19h30
+END:VALARM
+END:VEVENT
+END:VCALENDAR

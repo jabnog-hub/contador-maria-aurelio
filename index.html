@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maria & Aurelio — Contagem Regressiva</title>
+  <meta name="description" content="Contagem regressiva para o casamento de Maria e Aurelio." />
+  <meta property="og:title" content="Maria & Aurelio — contagem regressiva" />
+  <meta property="og:description" content="Presença confirmada. Agora é só contar os dias para o nosso grande dia." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#fffdfa;--ink:#11100f;--muted:#56514c;--line:#171615;--veil:rgba(255,253,250,.82);--serif:'Cormorant Garamond',Georgia,serif;--script:'Great Vibes',cursive}
+    *{box-sizing:border-box}html{background:#eee9e3;color:var(--ink);font-family:var(--serif)}body{margin:0;min-height:100svh;display:grid;place-items:center;padding:18px;background:radial-gradient(circle at 50% 14%,#fff 0 30%,#eee9e3 100%)}
+    .page{width:min(100%,820px);position:relative}.card{position:relative;overflow:hidden;min-height:900px;background:var(--paper);border:2px solid var(--line);box-shadow:0 24px 72px rgba(0,0,0,.14);padding:38px 28px 34px;text-align:center;isolation:isolate}.card:before{content:"";position:absolute;inset:12px;border:1.5px solid var(--line);z-index:2;pointer-events:none}.content{position:relative;z-index:5;max-width:660px;margin:auto}.corner{position:absolute;width:54px;height:54px;border-color:var(--line);z-index:4;background:var(--paper)}.tl{top:0;left:0;border-right:2px solid;border-bottom:2px solid;border-bottom-right-radius:28px}.tr{top:0;right:0;border-left:2px solid;border-bottom:2px solid;border-bottom-left-radius:28px}.bl{bottom:0;left:0;border-top:2px solid;border-right:2px solid;border-top-right-radius:28px}.br{bottom:0;right:0;border-top:2px solid;border-left:2px solid;border-top-left-radius:28px}
+    .monogram{width:min(310px,78vw);height:245px;display:grid;place-items:center;margin:0 auto 4px;position:relative}.mono{font-size:82px;font-weight:600;letter-spacing:-.06em}.arc{position:absolute;inset:0}.stem,.leaf,.flower{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.thin{stroke-width:1.25}.sprig{position:absolute;color:var(--line);opacity:.12;z-index:1;width:240px;height:360px;bottom:20px;pointer-events:none}.sprig.left{left:10px}.sprig.right{right:10px;transform:scaleX(-1)}
+    .eyebrow{font-size:19px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin:8px 0 14px}.script{font-family:var(--script);font-size:64px;line-height:.9;margin:18px 0 -4px}h1{font-size:62px;line-height:.92;text-transform:uppercase;letter-spacing:.03em;margin:0 0 18px}.message{font-size:25px;line-height:1.25;max-width:560px;margin:0 auto 24px}.divider{display:flex;align-items:center;justify-content:center;gap:16px;margin:18px auto}.divider:before,.divider:after{content:"";height:1px;background:var(--line);width:96px}.heart{font-family:Georgia,serif;font-size:24px}
+    .countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:610px;margin:28px auto 18px}.box{border:1.5px solid var(--line);background:var(--veil);padding:18px 10px 14px}.box b{display:block;font-size:58px;line-height:.9;font-variant-numeric:tabular-nums}.box span{display:block;margin-top:8px;font-size:15px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-weight:600}.date{font-size:21px;text-transform:uppercase;letter-spacing:.13em;line-height:1.45;margin:18px auto 6px}.date strong{font-size:28px;letter-spacing:.15em}.actions{display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:28px}.button{width:min(100%,360px);min-height:50px;display:inline-flex;align-items:center;justify-content:center;border:1.5px solid var(--line);background:var(--ink);color:#fff;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-size:17px;font-weight:700;padding:14px 18px}.button.secondary{background:transparent;color:var(--ink)}.button:hover{filter:contrast(1.2);transform:translateY(-1px)}.small-link{font-size:16px;color:var(--muted);text-underline-offset:3px}.note{font-size:17px;color:var(--muted);line-height:1.35;max-width:500px;margin:8px auto 0}.hidden{position:absolute;left:-9999px}
+    @media(max-width:620px){body{padding:8px}.card{min-height:auto;padding:32px 20px 28px}.card:before{inset:9px}.corner{width:40px;height:40px}.monogram{height:210px}.mono{font-size:68px}.eyebrow{font-size:14px}.script{font-size:50px}h1{font-size:43px}.message{font-size:21px}.countdown{grid-template-columns:repeat(2,1fr);gap:9px}.box{padding:14px 8px 12px}.box b{font-size:44px}.box span{font-size:12px}.date{font-size:16px}.date strong{font-size:21px}.sprig{width:135px;height:230px;opacity:.08}.divider:before,.divider:after{width:64px}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article class="card" aria-labelledby="titulo">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+      <svg class="sprig left" viewBox="0 0 180 280" aria-hidden="true"><path class="stem" d="M22 260 C35 204 44 150 82 92 C103 60 122 38 150 18"/><path class="leaf" d="M48 195 C30 186 31 170 55 177 C60 188 58 193 48 195"/><path class="leaf" d="M69 153 C50 143 54 124 78 136 C82 146 79 152 69 153"/><path class="leaf" d="M92 111 C75 98 83 82 104 95 C106 104 102 110 92 111"/><path class="leaf" d="M52 221 C73 214 83 230 61 240 C52 237 49 231 52 221"/><path class="leaf" d="M81 173 C101 166 111 184 88 191 C80 187 77 181 81 173"/><path class="flower" d="M34 207 c-9 -13 10 -21 14 -8 c8 -10 22 3 10 12 c14 6 5 23 -8 14 c-5 14 -23 5 -14 -8 c-14 -2 -14 -17 -2 -10z"/><path class="flower" d="M71 127 c-8 -11 8 -19 13 -7 c7 -9 19 3 8 10 c13 6 5 21 -7 13 c-5 12 -20 4 -12 -7 c-12 -2 -12 -15 -2 -9z"/></svg>
+      <svg class="sprig right" viewBox="0 0 180 280" aria-hidden="true"><path class="stem" d="M22 260 C35 204 44 150 82 92 C103 60 122 38 150 18"/><path class="leaf" d="M48 195 C30 186 31 170 55 177 C60 188 58 193 48 195"/><path class="leaf" d="M69 153 C50 143 54 124 78 136 C82 146 79 152 69 153"/><path class="leaf" d="M92 111 C75 98 83 82 104 95 C106 104 102 110 92 111"/><path class="leaf" d="M52 221 C73 214 83 230 61 240 C52 237 49 231 52 221"/><path class="leaf" d="M81 173 C101 166 111 184 88 191 C80 187 77 181 81 173"/><path class="flower" d="M34 207 c-9 -13 10 -21 14 -8 c8 -10 22 3 10 12 c14 6 5 23 -8 14 c-5 14 -23 5 -14 -8 c-14 -2 -14 -17 -2 -10z"/><path class="flower" d="M71 127 c-8 -11 8 -19 13 -7 c7 -9 19 3 8 10 c13 6 5 21 -7 13 c-5 12 -20 4 -12 -7 c-12 -2 -12 -15 -2 -9z"/></svg>
+      <section class="content">
+        <h1 class="hidden" id="titulo">Contagem regressiva para o casamento de Maria e Aurelio</h1>
+        <div class="monogram"><svg class="arc" viewBox="0 0 310 245" aria-hidden="true"><path class="stem thin" d="M55 52 C110 2 205 2 258 54"/><path class="stem thin" d="M48 181 C96 234 214 236 264 181"/></svg><div class="mono">M&amp;A</div></div>
+        <p class="eyebrow">Presença confirmada</p>
+        <div class="divider"><span class="heart">♡</span></div>
+        <div class="script">Agora é só</div>
+        <h1>Contar os dias</h1>
+        <p class="message">Obrigado por confirmar. Estamos muito felizes em ter você com a gente no nosso grande dia.</p>
+        <div class="countdown" aria-label="Contagem regressiva">
+          <div class="box"><b id="days">--</b><span>Dias</span></div>
+          <div class="box"><b id="hours">--</b><span>Horas</span></div>
+          <div class="box"><b id="mins">--</b><span>Minutos</span></div>
+          <div class="box"><b id="secs">--</b><span>Segundos</span></div>
+        </div>
+        <div class="date">05 de setembro de 2026<br><strong>19h30 · Espaço Pacaembu</strong></div>
+        <div class="actions">
+          <a class="button" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Casamento%20Maria%20%26%20Aurelio&dates=20260905T223000Z/20260906T060000Z&location=Espa%C3%A7o%20Pacaembu%2C%20S%C3%A3o%20Paulo&details=Nosso%20grande%20dia%20come%C3%A7a%20%C3%A0s%2019h30.%20Cerim%C3%B4nia%20%C3%A0s%2020h%2C%20jantar%20%C3%A0s%2021h%20e%20festa%20a%20partir%20das%2022h." target="_blank" rel="noopener">Adicionar na agenda</a>
+          <a class="button secondary" href="https://www.google.com/maps/search/?api=1&query=Espa%C3%A7o%20Pacaembu%20S%C3%A3o%20Paulo" target="_blank" rel="noopener">Abrir localização</a>
+          <a class="small-link" href="/casamento-maria-aurelio.ics" download>baixar arquivo para calendário</a>
+        </div>
+        <p class="note">Dica: adicione agora na agenda para receber o lembrete perto da festa.</p>
+      </section>
+    </article>
+  </main>
+  <script>
+    (function(){
+      const target = new Date('2026-09-05T19:30:00-03:00').getTime();
+      const set = (id, value) => { const el = document.getElementById(id); if(el) el.textContent = String(value).padStart(2,'0'); };
+      function tick(){
+        const diff = Math.max(0, target - Date.now());
+        const days = Math.floor(diff / 86400000);
+        const hours = Math.floor((diff % 86400000) / 3600000);
+        const mins = Math.floor((diff % 3600000) / 60000);
+        const secs = Math.floor((diff % 60000) / 1000);
+        set('days', days); set('hours', hours); set('mins', mins); set('secs', secs);
+        if(diff === 0){
+          const title = document.querySelector('h1:not(.hidden)');
+          if(title) title.textContent = 'Chegou o grande dia';
+        }
+      }
+      tick(); setInterval(tick, 1000);
+    })();
+  </script>
+</body>
+</html>
